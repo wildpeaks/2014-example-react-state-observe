@@ -1,14 +1,13 @@
 # react-state-observe
 
 Application state for React using `Object.observe`, `Array.observe` and `Object.defineProperty`.
+
 Main files:
 
  - /src/js/data/ApplicationState.js
  - /src/js/components/ReadState.jsx
  - /src/js/components/EditState.jsx
 
-
--------------------------------------------------------------------------------
 
 ## State definition (ApplicationState.js)
 
@@ -96,8 +95,6 @@ An action that modifies an Array property:
 	};
 
 
--------------------------------------------------------------------------------
-
 ## Listen to state changes (ReadState.jsx)
 
 Use component mount events to listen:
@@ -113,8 +110,6 @@ Use component mount events to listen:
 		Object.unobserve(ApplicationState.events.PING, this._onPing);
 	},
 
-
--------------------------------------------------------------------------------
 
 ## Edit state with actions (EditState.jsx)
 
