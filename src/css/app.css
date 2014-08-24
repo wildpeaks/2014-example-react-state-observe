@@ -1,0 +1,26 @@
+
+body {
+	padding: 20px;
+	color: #333333;
+	background: #FAFAFA;
+	font-family: "Open Sans", sans-serif;
+}
+
+fieldset {
+	padding: 20px;
+	margin: 20px;
+}
+
+dt {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+button {
+	margin: 5px;
+}
