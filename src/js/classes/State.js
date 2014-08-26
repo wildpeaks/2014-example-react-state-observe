@@ -3,24 +3,28 @@ function getter(){
 	return true;
 }
 
+function create_setter(event_id){
+	'use strict';
+	return function(data){
+		Object.getNotifier(this).notify({
+			name: event_id,
+			type: 'update',
+			data: data
+		});
+	};
+}
+
 
 function State(json_data){
 	'use strict';
 	var events = json_data.events || {};
 	for (var event_id in events){
-		// jshint loopfunc:true
 		Object.defineProperty(
 			events[event_id],
 			'event',
 			{
 				get: getter,
-				set: function(data){
-					Object.getNotifier(this).notify({
-						name: event_id,
-						type: 'update',
-						data: data
-					});
-				}
+				set: create_setter(event_id)
 			}
 		);
 	}
