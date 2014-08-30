@@ -5,8 +5,8 @@ Application state for [React](http://facebook.github.io/react) using `Object.obs
 Main files:
 
  - [/src/js/data/ApplicationState.js](https://github.com/wildpeaks/react-state-observe/blob/master/src/js/data/ApplicationState.js)
- - [/src/js/components/ReadState.jsx](https://github.com/wildpeaks/react-state-observe/blob/master/src/js/components/ReadState.js)
- - [/src/js/components/EditState.jsx](https://github.com/wildpeaks/react-state-observe/blob/master/src/js/components/EditState.js)
+ - [/src/js/components/ReadState.jsx](https://github.com/wildpeaks/react-state-observe/blob/master/src/js/components/ReadState.jsx)
+ - [/src/js/components/EditState.jsx](https://github.com/wildpeaks/react-state-observe/blob/master/src/js/components/EditState.jsx)
 
 
 ## State definition (ApplicationState.js)
