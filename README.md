@@ -4,9 +4,9 @@ Application state for React using `Object.observe`, `Array.observe` and `Object.
 
 Main files:
 
- - /src/js/data/ApplicationState.js
- - /src/js/components/ReadState.jsx
- - /src/js/components/EditState.jsx
+ - [/src/js/data/ApplicationState.js](https://github.com/wildpeaks/react-state-observe/blob/master/src/js/data/ApplicationState.js)
+ - [/src/js/components/ReadState.jsx](https://github.com/wildpeaks/react-state-observe/blob/master/src/js/data/ReadState.js)
+ - [/src/js/components/EditState.jsx](https://github.com/wildpeaks/react-state-observe/blob/master/src/js/data/EditState.js)
 
 
 ## State definition (ApplicationState.js)
